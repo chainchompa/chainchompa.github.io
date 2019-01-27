@@ -1,0 +1,14 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    border: 2px red solid;
+}
+
+.projects .project-container {
+    border: 2px blue solid;
+}
+
+.projects .project-container img {
+    width: 60%;
+}
+
