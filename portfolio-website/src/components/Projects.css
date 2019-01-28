@@ -12,3 +12,6 @@
     width: 60%;
 }
 
+.projects .project-container .fa-desktop:hover {
+    color: rgb(100, 255, 218);
+}

@@ -7,6 +7,13 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDesktop, faCode } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faDesktop);
+library.add(faCode);
+
 class App extends Component {
   render() {
     return (
