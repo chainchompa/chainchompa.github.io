@@ -1,0 +1,39 @@
+.contact {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.4em;
+    color: white;
+}
+
+.contact p {
+    color: rgb(136, 146, 176);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.contact .contact-links {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+    justify-content: space-around;
+
+}
+.contact .contact-links .fa-envelope:hover {
+    color: rgb(100, 255, 218);
+}
+
+.contact .contact-links .fa-github:hover {
+    color: rgb(100, 255, 218);
+}
+
+.contact .contact-links .fa-linkedin:hover {
+    color: rgb(100, 255, 218);
+}

@@ -14,7 +14,7 @@ const Projects = () => {
         <h3>Game of Life</h3>
         <img src={gameoflife} alt="Game of Life" />
         <p>
-          A web app that emulates John Conway's Game of Life. A grid of cells
+          A web app using React that emulates John Conway's Game of Life. A grid of cells
           that are either alive or dead that can be manually populated or
           created with templates. The cells advance based on a set of rules that
           govern their replication and destruction. Includes features like
@@ -32,7 +32,7 @@ const Projects = () => {
       <div className="project-container">
         <h3>MUD Game</h3>
         <img src={mud} alt="Mud Game" />
-        <p>A web based MUD Game.</p>
+        <p>An online multiplayer text adventure game using Pusher websockets for player status and real-time messaging. Uses React on the front end and Python/Django on the back end.</p>
         <a href="">
           <FontAwesomeIcon icon="desktop" size="2x" color="white" />
         </a>
@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="project-container">
         <h3>Notes App</h3>
         <img src={notes} alt="Notes App" />
-        <p>A react Notes app</p>
+        <p>A web app created to keep track of notes. Allows you to create, edit, and delete different notes. The notes are served in a SQLite database so notes can be accessed from anywhere. Uses React on the front end and Node.js on the back end.</p>
         <a href="https://jennifernotes.netlify.com/">
           <FontAwesomeIcon icon="desktop" size="2x" color="white" />
         </a>
@@ -54,7 +54,7 @@ const Projects = () => {
       <div className="project-container">
         <h3>S&J Architects Mock Website</h3>
         <img src={architects} alt="Architecture Website" />
-        <p>A mock website for S&J Architects</p>
+        <p>A fully-responsive sample company site. The site includes a fully functional tab component coded from scratch utilizing Javascript components and DOM Manipulation. This was the first full project I did and it uses HTML5, CSS3 with LESS, and Javascript. </p>
         <a href="https://chainchompa.github.io/User-Interface-Project-Week/">
           <FontAwesomeIcon icon="desktop" size="2x" color="white" />
         </a>
