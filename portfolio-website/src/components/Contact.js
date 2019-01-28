@@ -9,13 +9,13 @@ const Contact = () => {
       <p>Feel free to contact me about anything!</p>
       <div className="contact-links">
         <a href="mailto:chainchompa@gmail.com">
-          <FontAwesomeIcon icon="envelope" size="2x" color="white" />
+          <FontAwesomeIcon icon="envelope" size="3x" color="white" />
         </a>
         <a href="https://github.com/chainchompa">
-          <FontAwesomeIcon icon={["fab", "github"]} size="2x" color="white" />
+          <FontAwesomeIcon icon={["fab", "github"]} size="3x" color="white" />
         </a>
         <a href="https://www.linkedin.com/in/jennifer-player-92a6a5153">
-          <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" color="white" />
+          <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" color="white" />
         </a>
       </div>
     </div>
