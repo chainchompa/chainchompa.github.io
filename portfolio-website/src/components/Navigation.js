@@ -15,7 +15,6 @@ const Navigation = () => {
         <Link to="/contact" style={{ textDecoration: "none" }}>
           Contact
         </Link>
-        <a href="www.google.com">Resume</a>
       </div>
     </div>
   );
