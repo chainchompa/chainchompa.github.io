@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
@@ -22,12 +22,13 @@ library.add(faDesktop, faCode, faEnvelope, fab);
 class App extends Component {
   render() {
     return (
-      <div className="App-Container">
-        <Navigation />
-        <Route exact path="/" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
-      </div>
+        <div className="App-Container">
+          <Navigation />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
+        </div>
     );
   }
 }
